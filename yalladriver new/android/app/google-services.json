@@ -1,0 +1,146 @@
+{
+  "project_info": {
+    "project_number": "2281474840",
+    "firebase_url": "https://yalla-63dcd-default-rtdb.firebaseio.com",
+    "project_id": "yalla-63dcd",
+    "storage_bucket": "yalla-63dcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2281474840:android:2fa6a53347e59d0322ac6d",
+        "android_client_info": {
+          "package_name": "com.yalla.customer.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2281474840-r85rbhud36rn1hjbpqqtksdvdg93va5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yalla.customer.android",
+            "certificate_hash": "7cfa91b1c5276e6f0bad54233edda330cc4a21be"
+          }
+        },
+        {
+          "client_id": "2281474840-fd4j4ncaq8a4doobmoom9nijgvj6ml9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzsSTpM6RkMUMlyfxZK3Od30cKoGtIDdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2281474840-fd4j4ncaq8a4doobmoom9nijgvj6ml9t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "2281474840-9vgqrtjpu6140krj6hril5neh44enq7r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yalla.customer.ios",
+                "app_store_id": "18353599931"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2281474840:android:60bf0fec463eeb5722ac6d",
+        "android_client_info": {
+          "package_name": "com.yalla.driver.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2281474840-1nnhk0odb18gfg8c0fa860jq4g0ce397.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yalla.driver.android",
+            "certificate_hash": "7cfa91b1c5276e6f0bad54233edda330cc4a21be"
+          }
+        },
+        {
+          "client_id": "2281474840-fd4j4ncaq8a4doobmoom9nijgvj6ml9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzsSTpM6RkMUMlyfxZK3Od30cKoGtIDdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2281474840-fd4j4ncaq8a4doobmoom9nijgvj6ml9t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "2281474840-9vgqrtjpu6140krj6hril5neh44enq7r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yalla.customer.ios",
+                "app_store_id": "18353599931"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2281474840:android:8b3324681f41be7022ac6d",
+        "android_client_info": {
+          "package_name": "com.yalla.restaurant.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2281474840-cmp7omra8dnhocgn3ru0i7pa0ndp4tub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yalla.restaurant.android",
+            "certificate_hash": "7cfa91b1c5276e6f0bad54233edda330cc4a21be"
+          }
+        },
+        {
+          "client_id": "2281474840-fd4j4ncaq8a4doobmoom9nijgvj6ml9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzsSTpM6RkMUMlyfxZK3Od30cKoGtIDdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2281474840-fd4j4ncaq8a4doobmoom9nijgvj6ml9t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "2281474840-9vgqrtjpu6140krj6hril5neh44enq7r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yalla.customer.ios",
+                "app_store_id": "18353599931"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

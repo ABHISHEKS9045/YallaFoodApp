@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ipos_printer_test_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iposprinter.printertestdemo.IPosPrinterTestDemo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/b_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/print_display"/>
+            <!--
+                        <Button
+                            android:id="@+id/b_self"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_self_check"/>
+
+                        <Button
+                            android:id="@+id/b_init"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_init"/>
+
+                        <Button
+                            android:id="@+id/b_query"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_query_length"/>
+            -->
+                        <Button
+                            android:id="@+id/b_lines"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_three_lines"/>
+
+                        <Button
+                            android:id="@+id/b_block"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_black_block"/>
+
+                        <Button
+                            android:id="@+id/b_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_text"/>
+
+                        <Button
+                            android:id="@+id/b_baidu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_baidu_bill"/>
+
+                        <Button
+                            android:id="@+id/b_meituan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_meituan_bill"/>
+
+                        <Button
+                            android:id="@+id/b_erlmo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_elemo_bill"/>
+
+                        <Button
+                            android:id="@+id/b_koubei"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_koubei_bill"/>
+
+                        <Button
+                            android:id="@+id/b_table"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_table"/>
+
+                        <Button
+                            android:id="@+id/b_barcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_barcode"/>
+
+                        <Button
+                            android:id="@+id/b_qcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_qrcode"/>
+
+                        <Button
+                            android:id="@+id/b_pic"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_picture"/>
+
+                        <Button
+                            android:id="@+id/b_continu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_multi_content_test"/>
+
+                        <Button
+                            android:id="@+id/b_test"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_comprehensive_test"/>
+                        <!--
+                        <Button
+                            android:id="@+id/b_play"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_sunmi_mode"/>
+
+                        <Button
+                            android:id="@+id/b_runpaper"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/printer_run_paper_lines"/>
+
+                        <Button
+                            android:id="@+id/b_testall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_Multithread_test"/>
+
+                        <Button
+                            android:id="@+id/b_loop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/loop_print_test"/>
+
+                        <Button
+                            android:id="@+id/b_error"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_driver_error_test"/>
+
+                        <Button
+                            android:id="@+id/b_wave"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_wave_test"/>
+                        <Button
+                            android:id="@+id/b_length"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/motor_idling"/>
+                        <Button
+                            android:id="@+id/b_bytes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/print_commond_input"/>
+
+                        <Button
+                            android:id="@+id/b_motor"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reset_motor_high_temp_status"/>
+                        -->
+                        <Button
+                            android:id="@+id/b_exit"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/Red_700"
+                            android:text="@string/exit"/>
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,104 @@
+name: foodie_driver
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 3.2.2+10
+
+environment:
+  sdk: ">=2.13.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_messaging: ^12.0.3
+  shared_preferences: ^2.0.15
+  firebase_core: ^1.21.0
+  firebase_auth: ^3.6.4
+  cloud_firestore: ^3.4.5
+  image_picker: ^0.8.5+3
+  firebase_storage: ^10.3.6
+  progress_dialog:
+    git:
+      url: https://github.com/mostafaAbdelazim/progress_dialog.git
+  provider: ^6.0.0
+  url_launcher: ^6.1.5
+  intl: ^0.17.0
+  cached_network_image: ^3.2.1
+  uuid: ^3.0.6
+  video_thumbnail: ^0.5.2
+  path_provider: ^2.0.2
+  photo_view: ^0.12.0
+  video_player: ^2.1.12
+  flutter_facebook_auth: ^4.4.1
+  http: ^0.13.5
+  geolocator: ^9.0.2
+  latlong2: ^0.8.0
+  flutter_local_notifications: ^13.0.0
+  smooth_page_indicator: ^0.3.0-nullsafety.0
+  #intl_phone_number_input: ^0.7.0+2
+  pin_code_fields: ^7.4.0
+  permission_handler: ^8.1.4+1
+  easy_localization: ^3.0.0
+  google_maps_flutter: ^2.1.12
+  font_awesome_flutter: ^9.1.0
+  flutter_polyline_points: ^1.0.0
+  cupertino_icons: ^1.0.3
+  flutter_native_image: ^0.0.6+1
+  flutter_sound: ^8.4.2
+  the_apple_sign_in: ^1.1.1
+  video_compress: ^3.1.1
+  location: ^4.0.0
+  audioplayers: ^1.1.1
+  paginate_firestore: ^1.0.3+1
+  flutter_widget_from_html: ^0.9.0
+  app_settings: ^4.2.0
+  fluttertoast: ^8.2.1
+  firebase_crashlytics: ^2.9.0
+  equatable: ^2.0.2
+  libphonenumber_plugin: ^0.3.1
+  firebase_core_platform_interface: 4.5.1
+  connectivity_plus: ^4.0.1
+  google_translator: ^1.0.0
+  firebase_app_check: ^0.0.9+1
+
+
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/images/ic_launcher.png'
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/fonts/
+    - assets/flags/
+    - assets/audio/
+
+  fonts:
+    - family: Poppinsb
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: Poppinsl
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+
+    - family: Poppinsm
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+
+    - family: Poppinsr
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Poppinssb
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf

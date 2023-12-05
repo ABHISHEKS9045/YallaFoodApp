@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">打印机测试</string>
+    <string name="print_display">演示模式</string>
+    <string name="print_text">打印文字</string>
+    <string name="print_english">打印英文</string>
+    <string name="print_char">打印字符</string>
+    <string name="print_picture">打印图片</string>
+    <string name="print_qrcode">打印二维码</string>
+    <string name="print_barcode">打印条码</string>
+    <string name="print_self_check">打印机自检</string>
+    <string name="print_init">打印机初始化</string>
+    <string name="print_query_length">打印长度查询</string>
+    <string name="print_three_lines">走纸3行</string>
+    <string name="print_black_block">打印黑块</string>
+    <string name="print_baidu_bill">打印百度小票</string>
+    <string name="print_meituan_bill">打印美团小票</string>
+    <string name="print_elemo_bill">打印饿了么小票</string>
+    <string name="print_koubei_bill">打印口碑外卖小票</string>
+    <string name="print_table">打印表格</string>
+    <string name="print_multi_content_test">长打印测试</string>
+    <string name="print_comprehensive_test">综合测试</string>
+    <string name="print_sunmi_mode">SUNMI 模式</string>
+    <string name="print_Multithread_test">并发多线程混打测试</string>
+    <string name="loop_print_test">循环打印测试</string>
+    <string name="print_driver_error_test">驱动算法容错测试</string>
+    <string name="print_wave_test">打印波形测试</string>
+    <string name="motor_idling">电机空转10000步</string>
+    <string name="print_commond_input">16进制指令输入</string>
+    <string name="printer_run_paper_lines">打印机走纸</string>
+    <string name="reset_motor_high_temp_status">电机高温保护标志手动复位</string>
+    <string name="out_of_paper">打印机没纸了</string>
+    <string name="exists_paper">打印机纸已准备就绪</string>
+    <string name="printer_is_working">打印机正忙</string>
+    <string name="printer_high_temp_alarm">当前打印机温度过高，请稍后打印~</string>
+    <string name="motor_high_temp_alarm">当前马达温度过高，请稍后打印~</string>
+    <string name="printer_current_task_print_complete">打印任务已经打印完成</string>
+    <string name="printer_exception">打印机异常</string>
+    <string name="unknown_error">未知状态</string>
+    <string name="switch_mode">切换模式</string>
+    <string name="exit">退出</string>
+</resources>

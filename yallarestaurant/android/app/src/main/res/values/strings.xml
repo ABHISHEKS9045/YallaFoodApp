@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yalla Partner</string>
+    <string name="facebook_app_id">227255426044574</string>
+    <string name="fb_login_protocol_scheme">fb227255426044574</string>
+    <string name="facebook_client_token">dc034862a85b441b04bf742f0f791e3a</string>
+</resources>

@@ -1,0 +1,118 @@
+name: foodie_restaurant
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 3.2.3+9
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^1.24.0
+  cloud_firestore: ^3.5.1
+  firebase_auth: ^3.11.2
+  firebase_storage: ^10.3.11
+  firebase_crashlytics: ^2.8.13
+  firebase_messaging: ^13.1.0
+  place_picker: ^0.10.0
+  smooth_page_indicator: ^1.0.0+2
+  shared_preferences: ^2.0.15
+  image_picker: ^0.8.6
+  image_gallery_saver: ^1.7.1
+  progress_dialog:
+    git:
+      url: https://github.com/mostafaAbdelazim/progress_dialog.git
+  intl: ^0.17.0
+  multiselect: ^0.0.7
+  cached_network_image: ^3.2.3
+  flutter_facebook_auth: ^5.0.6
+  #intl_phone_number_input: ^0.7.1
+  pin_code_fields: ^7.4.0
+  easy_localization: ^3.0.0
+  font_awesome_flutter: ^10.2.1
+  photo_view: ^0.14.0
+  flutter_native_image: ^0.0.6+1
+  the_apple_sign_in: ^1.1.1
+  numberpicker: ^2.1.1
+  geolocator: ^9.0.2
+  location: ^4.4.0
+  geocoding: ^2.0.5
+  dotted_border: ^2.0.0+2
+  flutter_facebook_keyhash: ^0.0.4
+  flutter_local_notifications: ^13.0.0
+  firebase_core_platform_interface: 4.5.1
+  datetime_picker_formfield:
+  geoflutterfire: ^3.0.3
+  video_player: ^2.4.2
+  flutter_sound: ^9.2.13
+  video_thumbnail: ^0.5.0
+  video_compress: ^3.1.0
+  path_provider: ^2.0.10
+  sticky_headers: ^0.3.0+2
+  barcode_image: ^2.0.2
+  image: ^3.2.0
+  flutter_native_splash: ^2.2.11
+  permission_handler: ^10.1.0
+  google_maps_flutter: ^2.2.1
+  dropdown_search: ^5.0.3
+  audioplayers: ^1.0.1
+
+  flutter_widget_from_html: ^0.9.0
+  uuid: ^3.0.7
+  flutter_video_info: ^1.3.1
+  mime: ^1.0.3
+  flutter_rating_bar: ^4.0.1
+  paginate_firestore: ^1.0.3+1
+  equatable: ^2.0.2
+  libphonenumber_plugin: ^0.3.1
+  connectivity_plus: ^4.0.1
+  firebase_app_check: ^0.0.9+1
+  bluetooth_thermal_printer:
+  esc_pos_utils:
+  flutter_langdetect: ^0.0.2
+
+
+
+
+
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'assets/images/ic_launcher-playstore.png'
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/flags/
+    - assets/audio/
+
+  fonts:
+    - family: Poppinsb
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: Poppinsl
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+
+    - family: Poppinsm
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+
+    - family: Poppinsr
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Poppinssb
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
